@@ -1,4 +1,4 @@
-FROM node:20.7
+FROM node:20.15
 WORKDIR /usr/src/app
 COPY package.json yarn.lock ./
 RUN yarn --frozen-lockfile
